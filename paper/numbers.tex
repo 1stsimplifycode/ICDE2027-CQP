@@ -1,0 +1,431 @@
+\newcommand{\KReal}{398}
+\newcommand{\EpReal}{8}
+\newcommand{\certfracRealmcar}{23.8}
+\newcommand{\imputeerrRealmcar}{7.2}
+\newcommand{\imputeerronunkRealmcar}{9.4}
+\newcommand{\imputeerroncertRealmcar}{0.0}
+\newcommand{\certwrongRealmcar}{0}
+\newcommand{\violRealmcar}{110}
+\newcommand{\ndecReal}{1672}
+\newcommand{\nitemsReal}{15920}
+\newcommand{\aucRealmcarrandom}{0.099}
+\newcommand{\cnRealmcarrandom}{0.951}
+\newcommand{\daucRealmcarrandom}{0.596}
+\newcommand{\ciRealmcarrandom}{[0.585, 0.605]}
+\newcommand{\winsRealmcarrandom}{8/8}
+\newcommand{\aucRealmcarwidest}{0.484}
+\newcommand{\cnRealmcarwidest}{0.462}
+\newcommand{\daucRealmcarwidest}{0.211}
+\newcommand{\ciRealmcarwidest}{[0.204, 0.218]}
+\newcommand{\winsRealmcarwidest}{8/8}
+\newcommand{\aucRealmcardegree}{0.485}
+\newcommand{\cnRealmcardegree}{0.627}
+\newcommand{\daucRealmcardegree}{0.210}
+\newcommand{\ciRealmcardegree}{[0.204, 0.216]}
+\newcommand{\winsRealmcardegree}{8/8}
+\newcommand{\aucRealmcarlocal}{0.462}
+\newcommand{\cnRealmcarlocal}{0.504}
+\newcommand{\daucRealmcarlocal}{0.234}
+\newcommand{\ciRealmcarlocal}{[0.224, 0.242]}
+\newcommand{\winsRealmcarlocal}{8/8}
+\newcommand{\aucRealmcarvoiOne}{0.620}
+\newcommand{\cnRealmcarvoiOne}{0.386}
+\newcommand{\daucRealmcarvoiOne}{0.076}
+\newcommand{\ciRealmcarvoiOne}{[0.071, 0.080]}
+\newcommand{\winsRealmcarvoiOne}{8/8}
+\newcommand{\aucRealmcarseaq}{0.695}
+\newcommand{\cnRealmcarseaq}{0.352}
+\newcommand{\aucRealmcarseaqmyopic}{0.643}
+\newcommand{\cnRealmcarseaqmyopic}{0.372}
+\newcommand{\daucRealmcarseaqmyopic}{0.052}
+\newcommand{\ciRealmcarseaqmyopic}{[0.048, 0.056]}
+\newcommand{\winsRealmcarseaqmyopic}{8/8}
+\newcommand{\aucRealmcarseaqmax}{0.689}
+\newcommand{\cnRealmcarseaqmax}{0.359}
+\newcommand{\daucRealmcarseaqmax}{0.006}
+\newcommand{\ciRealmcarseaqmax}{[0.004, 0.007]}
+\newcommand{\winsRealmcarseaqmax}{8/8}
+\newcommand{\certfracReallate}{22.1}
+\newcommand{\imputeerrReallate}{8.2}
+\newcommand{\imputeerronunkReallate}{10.5}
+\newcommand{\imputeerroncertReallate}{0.0}
+\newcommand{\certwrongReallate}{0}
+\newcommand{\violReallate}{62}
+\newcommand{\aucReallaterandom}{0.086}
+\newcommand{\cnReallaterandom}{0.933}
+\newcommand{\daucReallaterandom}{0.651}
+\newcommand{\ciReallaterandom}{[0.646, 0.656]}
+\newcommand{\winsReallaterandom}{8/8}
+\newcommand{\aucReallatewidest}{0.659}
+\newcommand{\cnReallatewidest}{0.313}
+\newcommand{\daucReallatewidest}{0.077}
+\newcommand{\ciReallatewidest}{[0.073, 0.081]}
+\newcommand{\winsReallatewidest}{8/8}
+\newcommand{\aucReallatedegree}{0.553}
+\newcommand{\cnReallatedegree}{0.439}
+\newcommand{\daucReallatedegree}{0.183}
+\newcommand{\ciReallatedegree}{[0.175, 0.191]}
+\newcommand{\winsReallatedegree}{8/8}
+\newcommand{\aucReallatelocal}{0.512}
+\newcommand{\cnReallatelocal}{0.434}
+\newcommand{\daucReallatelocal}{0.224}
+\newcommand{\ciReallatelocal}{[0.217, 0.231]}
+\newcommand{\winsReallatelocal}{8/8}
+\newcommand{\aucReallatevoiOne}{0.694}
+\newcommand{\cnReallatevoiOne}{0.273}
+\newcommand{\daucReallatevoiOne}{0.042}
+\newcommand{\ciReallatevoiOne}{[0.039, 0.045]}
+\newcommand{\winsReallatevoiOne}{8/8}
+\newcommand{\aucReallateseaq}{0.736}
+\newcommand{\cnReallateseaq}{0.257}
+\newcommand{\aucReallateseaqmyopic}{0.706}
+\newcommand{\cnReallateseaqmyopic}{0.266}
+\newcommand{\daucReallateseaqmyopic}{0.030}
+\newcommand{\ciReallateseaqmyopic}{[0.028, 0.033]}
+\newcommand{\winsReallateseaqmyopic}{8/8}
+\newcommand{\aucReallateseaqmax}{0.717}
+\newcommand{\cnReallateseaqmax}{0.274}
+\newcommand{\daucReallateseaqmax}{0.019}
+\newcommand{\ciReallateseaqmax}{[0.018, 0.020]}
+\newcommand{\winsReallateseaqmax}{8/8}
+\newcommand{\certfracRealmnar}{20.3}
+\newcommand{\imputeerrRealmnar}{13.7}
+\newcommand{\imputeerronunkRealmnar}{17.2}
+\newcommand{\imputeerroncertRealmnar}{0.0}
+\newcommand{\certwrongRealmnar}{0}
+\newcommand{\violRealmnar}{228}
+\newcommand{\aucRealmnarrandom}{0.142}
+\newcommand{\cnRealmnarrandom}{0.937}
+\newcommand{\daucRealmnarrandom}{0.612}
+\newcommand{\ciRealmnarrandom}{[0.602, 0.623]}
+\newcommand{\winsRealmnarrandom}{8/8}
+\newcommand{\aucRealmnarwidest}{0.578}
+\newcommand{\cnRealmnarwidest}{0.398}
+\newcommand{\daucRealmnarwidest}{0.175}
+\newcommand{\ciRealmnarwidest}{[0.167, 0.183]}
+\newcommand{\winsRealmnarwidest}{8/8}
+\newcommand{\aucRealmnardegree}{0.499}
+\newcommand{\cnRealmnardegree}{0.597}
+\newcommand{\daucRealmnardegree}{0.254}
+\newcommand{\ciRealmnardegree}{[0.245, 0.264]}
+\newcommand{\winsRealmnardegree}{8/8}
+\newcommand{\aucRealmnarlocal}{0.493}
+\newcommand{\cnRealmnarlocal}{0.464}
+\newcommand{\daucRealmnarlocal}{0.260}
+\newcommand{\ciRealmnarlocal}{[0.251, 0.269]}
+\newcommand{\winsRealmnarlocal}{8/8}
+\newcommand{\aucRealmnarvoiOne}{0.702}
+\newcommand{\cnRealmnarvoiOne}{0.314}
+\newcommand{\daucRealmnarvoiOne}{0.051}
+\newcommand{\ciRealmnarvoiOne}{[0.049, 0.054]}
+\newcommand{\winsRealmnarvoiOne}{8/8}
+\newcommand{\aucRealmnarseaq}{0.753}
+\newcommand{\cnRealmnarseaq}{0.283}
+\newcommand{\aucRealmnarseaqmyopic}{0.721}
+\newcommand{\cnRealmnarseaqmyopic}{0.308}
+\newcommand{\daucRealmnarseaqmyopic}{0.032}
+\newcommand{\ciRealmnarseaqmyopic}{[0.029, 0.035]}
+\newcommand{\winsRealmnarseaqmyopic}{8/8}
+\newcommand{\aucRealmnarseaqmax}{0.744}
+\newcommand{\cnRealmnarseaqmax}{0.293}
+\newcommand{\daucRealmnarseaqmax}{0.009}
+\newcommand{\ciRealmnarseaqmax}{[0.007, 0.010]}
+\newcommand{\winsRealmnarseaqmax}{8/8}
+\newcommand{\KSynth}{400}
+\newcommand{\EpSynth}{12}
+\newcommand{\certfracSynthmcar}{23.7}
+\newcommand{\imputeerrSynthmcar}{8.8}
+\newcommand{\imputeerronunkSynthmcar}{11.5}
+\newcommand{\imputeerroncertSynthmcar}{0.0}
+\newcommand{\certwrongSynthmcar}{0}
+\newcommand{\violSynthmcar}{27}
+\newcommand{\ndecSynth}{1680}
+\newcommand{\nitemsSynth}{16000}
+\newcommand{\aucSynthmcarrandom}{0.109}
+\newcommand{\cnSynthmcarrandom}{0.947}
+\newcommand{\daucSynthmcarrandom}{0.570}
+\newcommand{\ciSynthmcarrandom}{[0.565, 0.575]}
+\newcommand{\winsSynthmcarrandom}{12/12}
+\newcommand{\aucSynthmcarwidest}{0.466}
+\newcommand{\cnSynthmcarwidest}{0.485}
+\newcommand{\daucSynthmcarwidest}{0.213}
+\newcommand{\ciSynthmcarwidest}{[0.209, 0.217]}
+\newcommand{\winsSynthmcarwidest}{12/12}
+\newcommand{\aucSynthmcardegree}{0.478}
+\newcommand{\cnSynthmcardegree}{0.669}
+\newcommand{\daucSynthmcardegree}{0.201}
+\newcommand{\ciSynthmcardegree}{[0.197, 0.205]}
+\newcommand{\winsSynthmcardegree}{12/12}
+\newcommand{\aucSynthmcarlocal}{0.453}
+\newcommand{\cnSynthmcarlocal}{0.541}
+\newcommand{\daucSynthmcarlocal}{0.226}
+\newcommand{\ciSynthmcarlocal}{[0.223, 0.230]}
+\newcommand{\winsSynthmcarlocal}{12/12}
+\newcommand{\aucSynthmcarvoiOne}{0.615}
+\newcommand{\cnSynthmcarvoiOne}{0.422}
+\newcommand{\daucSynthmcarvoiOne}{0.064}
+\newcommand{\ciSynthmcarvoiOne}{[0.062, 0.066]}
+\newcommand{\winsSynthmcarvoiOne}{12/12}
+\newcommand{\aucSynthmcarseaq}{0.679}
+\newcommand{\cnSynthmcarseaq}{0.379}
+\newcommand{\aucSynthmcarseaqmyopic}{0.638}
+\newcommand{\cnSynthmcarseaqmyopic}{0.405}
+\newcommand{\daucSynthmcarseaqmyopic}{0.041}
+\newcommand{\ciSynthmcarseaqmyopic}{[0.039, 0.043]}
+\newcommand{\winsSynthmcarseaqmyopic}{12/12}
+\newcommand{\aucSynthmcarseaqmax}{0.669}
+\newcommand{\cnSynthmcarseaqmax}{0.389}
+\newcommand{\daucSynthmcarseaqmax}{0.010}
+\newcommand{\ciSynthmcarseaqmax}{[0.009, 0.011]}
+\newcommand{\winsSynthmcarseaqmax}{12/12}
+\newcommand{\certfracSynthlate}{22.4}
+\newcommand{\imputeerrSynthlate}{10.3}
+\newcommand{\imputeerronunkSynthlate}{13.2}
+\newcommand{\imputeerroncertSynthlate}{0.0}
+\newcommand{\certwrongSynthlate}{0}
+\newcommand{\violSynthlate}{18}
+\newcommand{\aucSynthlaterandom}{0.091}
+\newcommand{\cnSynthlaterandom}{0.922}
+\newcommand{\daucSynthlaterandom}{0.636}
+\newcommand{\ciSynthlaterandom}{[0.630, 0.642]}
+\newcommand{\winsSynthlaterandom}{12/12}
+\newcommand{\aucSynthlatewidest}{0.651}
+\newcommand{\cnSynthlatewidest}{0.317}
+\newcommand{\daucSynthlatewidest}{0.075}
+\newcommand{\ciSynthlatewidest}{[0.073, 0.077]}
+\newcommand{\winsSynthlatewidest}{12/12}
+\newcommand{\aucSynthlatedegree}{0.545}
+\newcommand{\cnSynthlatedegree}{0.462}
+\newcommand{\daucSynthlatedegree}{0.182}
+\newcommand{\ciSynthlatedegree}{[0.178, 0.186]}
+\newcommand{\winsSynthlatedegree}{12/12}
+\newcommand{\aucSynthlatelocal}{0.522}
+\newcommand{\cnSynthlatelocal}{0.437}
+\newcommand{\daucSynthlatelocal}{0.205}
+\newcommand{\ciSynthlatelocal}{[0.201, 0.209]}
+\newcommand{\winsSynthlatelocal}{12/12}
+\newcommand{\aucSynthlatevoiOne}{0.685}
+\newcommand{\cnSynthlatevoiOne}{0.285}
+\newcommand{\daucSynthlatevoiOne}{0.042}
+\newcommand{\ciSynthlatevoiOne}{[0.041, 0.043]}
+\newcommand{\winsSynthlatevoiOne}{12/12}
+\newcommand{\aucSynthlateseaq}{0.727}
+\newcommand{\cnSynthlateseaq}{0.269}
+\newcommand{\aucSynthlateseaqmyopic}{0.697}
+\newcommand{\cnSynthlateseaqmyopic}{0.279}
+\newcommand{\daucSynthlateseaqmyopic}{0.030}
+\newcommand{\ciSynthlateseaqmyopic}{[0.029, 0.031]}
+\newcommand{\winsSynthlateseaqmyopic}{12/12}
+\newcommand{\aucSynthlateseaqmax}{0.706}
+\newcommand{\cnSynthlateseaqmax}{0.287}
+\newcommand{\daucSynthlateseaqmax}{0.021}
+\newcommand{\ciSynthlateseaqmax}{[0.019, 0.023]}
+\newcommand{\winsSynthlateseaqmax}{12/12}
+\newcommand{\certfracSynthmnar}{14.4}
+\newcommand{\imputeerrSynthmnar}{19.8}
+\newcommand{\imputeerronunkSynthmnar}{23.1}
+\newcommand{\imputeerroncertSynthmnar}{0.0}
+\newcommand{\certwrongSynthmnar}{0}
+\newcommand{\violSynthmnar}{72}
+\newcommand{\aucSynthmnarrandom}{0.143}
+\newcommand{\cnSynthmnarrandom}{0.938}
+\newcommand{\daucSynthmnarrandom}{0.554}
+\newcommand{\ciSynthmnarrandom}{[0.548, 0.561]}
+\newcommand{\winsSynthmnarrandom}{12/12}
+\newcommand{\aucSynthmnarwidest}{0.510}
+\newcommand{\cnSynthmnarwidest}{0.460}
+\newcommand{\daucSynthmnarwidest}{0.188}
+\newcommand{\ciSynthmnarwidest}{[0.185, 0.191]}
+\newcommand{\winsSynthmnarwidest}{12/12}
+\newcommand{\aucSynthmnardegree}{0.475}
+\newcommand{\cnSynthmnardegree}{0.676}
+\newcommand{\daucSynthmnardegree}{0.222}
+\newcommand{\ciSynthmnardegree}{[0.219, 0.225]}
+\newcommand{\winsSynthmnardegree}{12/12}
+\newcommand{\aucSynthmnarlocal}{0.464}
+\newcommand{\cnSynthmnarlocal}{0.530}
+\newcommand{\daucSynthmnarlocal}{0.233}
+\newcommand{\ciSynthmnarlocal}{[0.228, 0.238]}
+\newcommand{\winsSynthmnarlocal}{12/12}
+\newcommand{\aucSynthmnarvoiOne}{0.647}
+\newcommand{\cnSynthmnarvoiOne}{0.394}
+\newcommand{\daucSynthmnarvoiOne}{0.051}
+\newcommand{\ciSynthmnarvoiOne}{[0.049, 0.052]}
+\newcommand{\winsSynthmnarvoiOne}{12/12}
+\newcommand{\aucSynthmnarseaq}{0.698}
+\newcommand{\cnSynthmnarseaq}{0.356}
+\newcommand{\aucSynthmnarseaqmyopic}{0.666}
+\newcommand{\cnSynthmnarseaqmyopic}{0.384}
+\newcommand{\daucSynthmnarseaqmyopic}{0.031}
+\newcommand{\ciSynthmnarseaqmyopic}{[0.030, 0.032]}
+\newcommand{\winsSynthmnarseaqmyopic}{12/12}
+\newcommand{\aucSynthmnarseaqmax}{0.686}
+\newcommand{\cnSynthmnarseaqmax}{0.369}
+\newcommand{\daucSynthmnarseaqmax}{0.012}
+\newcommand{\ciSynthmnarseaqmax}{[0.011, 0.013]}
+\newcommand{\winsSynthmnarseaqmax}{12/12}
+\newcommand{\KRealHet}{398}
+\newcommand{\EpRealHet}{12}
+\newcommand{\certfracRealHetmcar}{26.2}
+\newcommand{\imputeerrRealHetmcar}{7.1}
+\newcommand{\imputeerronunkRealHetmcar}{9.7}
+\newcommand{\imputeerroncertRealHetmcar}{0.0}
+\newcommand{\certwrongRealHetmcar}{0}
+\newcommand{\violRealHetmcar}{191}
+\newcommand{\ndecRealHet}{1672}
+\newcommand{\nitemsRealHet}{15920}
+\newcommand{\aucRealHetmcarrandom}{0.105}
+\newcommand{\cnRealHetmcarrandom}{0.944}
+\newcommand{\daucRealHetmcarrandom}{0.570}
+\newcommand{\ciRealHetmcarrandom}{[0.562, 0.578]}
+\newcommand{\winsRealHetmcarrandom}{12/12}
+\newcommand{\aucRealHetmcarwidest}{0.409}
+\newcommand{\cnRealHetmcarwidest}{0.511}
+\newcommand{\daucRealHetmcarwidest}{0.266}
+\newcommand{\ciRealHetmcarwidest}{[0.263, 0.269]}
+\newcommand{\winsRealHetmcarwidest}{12/12}
+\newcommand{\aucRealHetmcardegree}{0.255}
+\newcommand{\cnRealHetmcardegree}{0.755}
+\newcommand{\daucRealHetmcardegree}{0.421}
+\newcommand{\ciRealHetmcardegree}{[0.414, 0.425]}
+\newcommand{\winsRealHetmcardegree}{12/12}
+\newcommand{\aucRealHetmcarlocal}{0.412}
+\newcommand{\cnRealHetmcarlocal}{0.552}
+\newcommand{\daucRealHetmcarlocal}{0.263}
+\newcommand{\ciRealHetmcarlocal}{[0.255, 0.271]}
+\newcommand{\winsRealHetmcarlocal}{12/12}
+\newcommand{\aucRealHetmcarvoiOne}{0.582}
+\newcommand{\cnRealHetmcarvoiOne}{0.450}
+\newcommand{\daucRealHetmcarvoiOne}{0.093}
+\newcommand{\ciRealHetmcarvoiOne}{[0.089, 0.098]}
+\newcommand{\winsRealHetmcarvoiOne}{12/12}
+\newcommand{\aucRealHetmcarseaq}{0.675}
+\newcommand{\cnRealHetmcarseaq}{0.376}
+\newcommand{\aucRealHetmcarseaqmyopic}{0.611}
+\newcommand{\cnRealHetmcarseaqmyopic}{0.432}
+\newcommand{\daucRealHetmcarseaqmyopic}{0.064}
+\newcommand{\ciRealHetmcarseaqmyopic}{[0.061, 0.068]}
+\newcommand{\winsRealHetmcarseaqmyopic}{12/12}
+\newcommand{\aucRealHetmcarseaqmax}{0.662}
+\newcommand{\cnRealHetmcarseaqmax}{0.392}
+\newcommand{\daucRealHetmcarseaqmax}{0.013}
+\newcommand{\ciRealHetmcarseaqmax}{[0.011, 0.014]}
+\newcommand{\winsRealHetmcarseaqmax}{12/12}
+\newcommand{\certfracRealHetlate}{24.3}
+\newcommand{\imputeerrRealHetlate}{8.5}
+\newcommand{\imputeerronunkRealHetlate}{11.4}
+\newcommand{\imputeerroncertRealHetlate}{0.0}
+\newcommand{\certwrongRealHetlate}{0}
+\newcommand{\violRealHetlate}{122}
+\newcommand{\aucRealHetlaterandom}{0.094}
+\newcommand{\cnRealHetlaterandom}{0.925}
+\newcommand{\daucRealHetlaterandom}{0.619}
+\newcommand{\ciRealHetlaterandom}{[0.613, 0.625]}
+\newcommand{\winsRealHetlaterandom}{12/12}
+\newcommand{\aucRealHetlatewidest}{0.606}
+\newcommand{\cnRealHetlatewidest}{0.343}
+\newcommand{\daucRealHetlatewidest}{0.108}
+\newcommand{\ciRealHetlatewidest}{[0.104, 0.112]}
+\newcommand{\winsRealHetlatewidest}{12/12}
+\newcommand{\aucRealHetlatedegree}{0.296}
+\newcommand{\cnRealHetlatedegree}{0.567}
+\newcommand{\daucRealHetlatedegree}{0.417}
+\newcommand{\ciRealHetlatedegree}{[0.400, 0.433]}
+\newcommand{\winsRealHetlatedegree}{12/12}
+\newcommand{\aucRealHetlatelocal}{0.483}
+\newcommand{\cnRealHetlatelocal}{0.462}
+\newcommand{\daucRealHetlatelocal}{0.231}
+\newcommand{\ciRealHetlatelocal}{[0.224, 0.237]}
+\newcommand{\winsRealHetlatelocal}{12/12}
+\newcommand{\aucRealHetlatevoiOne}{0.648}
+\newcommand{\cnRealHetlatevoiOne}{0.308}
+\newcommand{\daucRealHetlatevoiOne}{0.066}
+\newcommand{\ciRealHetlatevoiOne}{[0.062, 0.070]}
+\newcommand{\winsRealHetlatevoiOne}{12/12}
+\newcommand{\aucRealHetlateseaq}{0.714}
+\newcommand{\cnRealHetlateseaq}{0.281}
+\newcommand{\aucRealHetlateseaqmyopic}{0.668}
+\newcommand{\cnRealHetlateseaqmyopic}{0.298}
+\newcommand{\daucRealHetlateseaqmyopic}{0.045}
+\newcommand{\ciRealHetlateseaqmyopic}{[0.043, 0.048]}
+\newcommand{\winsRealHetlateseaqmyopic}{12/12}
+\newcommand{\aucRealHetlateseaqmax}{0.691}
+\newcommand{\cnRealHetlateseaqmax}{0.300}
+\newcommand{\daucRealHetlateseaqmax}{0.023}
+\newcommand{\ciRealHetlateseaqmax}{[0.021, 0.025]}
+\newcommand{\winsRealHetlateseaqmax}{12/12}
+\newcommand{\certfracRealHetmnar}{21.4}
+\newcommand{\imputeerrRealHetmnar}{14.3}
+\newcommand{\imputeerronunkRealHetmnar}{18.2}
+\newcommand{\imputeerroncertRealHetmnar}{0.0}
+\newcommand{\certwrongRealHetmnar}{0}
+\newcommand{\violRealHetmnar}{415}
+\newcommand{\aucRealHetmnarrandom}{0.152}
+\newcommand{\cnRealHetmnarrandom}{0.930}
+\newcommand{\daucRealHetmnarrandom}{0.567}
+\newcommand{\ciRealHetmnarrandom}{[0.556, 0.577]}
+\newcommand{\winsRealHetmnarrandom}{12/12}
+\newcommand{\aucRealHetmnarwidest}{0.482}
+\newcommand{\cnRealHetmnarwidest}{0.462}
+\newcommand{\daucRealHetmnarwidest}{0.237}
+\newcommand{\ciRealHetmnarwidest}{[0.227, 0.248]}
+\newcommand{\winsRealHetmnarwidest}{12/12}
+\newcommand{\aucRealHetmnardegree}{0.257}
+\newcommand{\cnRealHetmnardegree}{0.745}
+\newcommand{\daucRealHetmnardegree}{0.462}
+\newcommand{\ciRealHetmnardegree}{[0.452, 0.470]}
+\newcommand{\winsRealHetmnardegree}{12/12}
+\newcommand{\aucRealHetmnarlocal}{0.440}
+\newcommand{\cnRealHetmnarlocal}{0.518}
+\newcommand{\daucRealHetmnarlocal}{0.279}
+\newcommand{\ciRealHetmnarlocal}{[0.269, 0.288]}
+\newcommand{\winsRealHetmnarlocal}{12/12}
+\newcommand{\aucRealHetmnarvoiOne}{0.648}
+\newcommand{\cnRealHetmnarvoiOne}{0.389}
+\newcommand{\daucRealHetmnarvoiOne}{0.071}
+\newcommand{\ciRealHetmnarvoiOne}{[0.069, 0.073]}
+\newcommand{\winsRealHetmnarvoiOne}{12/12}
+\newcommand{\aucRealHetmnarseaq}{0.719}
+\newcommand{\cnRealHetmnarseaq}{0.323}
+\newcommand{\aucRealHetmnarseaqmyopic}{0.673}
+\newcommand{\cnRealHetmnarseaqmyopic}{0.374}
+\newcommand{\daucRealHetmnarseaqmyopic}{0.046}
+\newcommand{\ciRealHetmnarseaqmyopic}{[0.044, 0.048]}
+\newcommand{\winsRealHetmnarseaqmyopic}{12/12}
+\newcommand{\aucRealHetmnarseaqmax}{0.708}
+\newcommand{\cnRealHetmnarseaqmax}{0.334}
+\newcommand{\daucRealHetmnarseaqmax}{0.011}
+\newcommand{\ciRealHetmnarseaqmax}{[0.010, 0.013]}
+\newcommand{\winsRealHetmnarseaqmax}{12/12}
+\newcommand{\stK}{398}
+\newcommand{\stT}{580}
+\newcommand{\stEvents}{476,479}
+\newcommand{\stRestated}{721}
+\newcommand{\stViol}{1364}
+\newcommand{\tputpoint}{135.5}
+\newcommand{\tputcert}{71.3}
+\newcommand{\tputrecomp}{2.9}
+\newcommand{\stcertTotal}{749,892}
+\newcommand{\stcertEmitted}{100.0}
+\newcommand{\stcertWrong}{397}
+\newcommand{\stcertWrongPct}{0.05}
+\newcommand{\stcertDelay}{0.84}
+\newcommand{\stcertOnTime}{62.9}
+\newcommand{\stcertRev}{415}
+\newcommand{\stcertFlag}{415}
+\newcommand{\stpointTotal}{749,892}
+\newcommand{\stpointEmitted}{100.0}
+\newcommand{\stpointWrong}{18,001}
+\newcommand{\stpointWrongPct}{2.40}
+\newcommand{\stpointDelay}{0.00}
+\newcommand{\stpointOnTime}{100.0}
+\newcommand{\stpointRev}{19,851}
+\newcommand{\stpointFlag}{0}
+\newcommand{\stwaitTotal}{749,892}
+\newcommand{\stwaitEmitted}{100.0}
+\newcommand{\stwaitWrong}{344}
+\newcommand{\stwaitWrongPct}{0.05}
+\newcommand{\stwaitDelay}{3.50}
+\newcommand{\stwaitOnTime}{3.0}
+\newcommand{\stwaitRev}{344}
+\newcommand{\stwaitFlag}{344}

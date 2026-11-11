@@ -1,0 +1,8 @@
+\begin{table*}[t]\centering\caption{Repeated equivalent-functionality benchmark on DuckDB~1.1.3, exact integer arithmetic (398 stocks, 60 days, 8 queries, 81,092 decisions, 63 daily batches). 5 runs per mode; each run is a fresh process and a fresh database, and the mode order is rotated across runs. Entries: median over runs [min--max over runs] of the per-run statistic. All 15 runs produced identical state digests and log counts. Speedup of total time, full over incremental-scan: 2.32 [2.30--2.37].}\label{tab:cqp}
+\scriptsize\setlength{\tabcolsep}{1.5pt}\begin{tabular}{lcccc}\toprule
+Mode & p50 (ms) & p95 (ms) & p99 (ms) & total (s)\\
+\midrule
+Incremental, transition scan & 404 [396--406] & 675 [656--684] & 706 [688--707] & 25.6 [25.4--25.8]\\
+Incremental, affected-only & 398 [391--409] & 659 [646--683] & 701 [655--703] & 25.2 [25.0--25.5]\\
+Full SQL recompute, same semantics & 950 [931--968] & 1051 [1040--1059] & 1079 [1069--1093] & 59.4 [59.0--60.2]\\
+\bottomrule\end{tabular}\end{table*}

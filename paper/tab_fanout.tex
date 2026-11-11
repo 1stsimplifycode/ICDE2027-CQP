@@ -1,0 +1,11 @@
+\begin{table*}[t]\centering\caption{Controlled fan-out benchmark: 1024 decisions of 32 items each, every item feeds exactly $f$ decisions (5 instances per $f$). Mean AUC; last columns: AUC gain of \seaq{} over SEAQ-noshare and over myopic VOI with min--max over instances, \seaq{} C90, and \seaq{} runtime.}\label{tab:fanout}
+\scriptsize\setlength{\tabcolsep}{2pt}\begin{tabular}{rrcccccccccr}\toprule
+$f$ & items & Rand & Widest & Deg & VOI & noshare & \seaq & $\Delta$noshare & $\Delta$VOI & C90 & s\\
+\midrule
+1 & 32768 & 0.011 & 0.013 & 0.012 & 0.316 & 0.316 & 0.316 & +0.000 [+0.000,+0.000] & +0.000 [-0.001,+0.001] & 0.838 & 2.5\\
+2 & 16384 & 0.011 & 0.015 & 0.013 & 0.172 & 0.198 & 0.202 & +0.005 [+0.002,+0.007] & +0.031 [+0.029,+0.032] & 0.911 & 1.5\\
+4 & 8192 & 0.013 & 0.015 & 0.015 & 0.102 & 0.121 & 0.127 & +0.006 [+0.003,+0.009] & +0.025 [+0.023,+0.026] & 0.931 & 0.5\\
+8 & 4096 & 0.010 & 0.011 & 0.010 & 0.060 & 0.072 & 0.075 & +0.003 [-0.000,+0.006] & +0.015 [+0.013,+0.016] & 0.956 & 0.3\\
+16 & 2048 & 0.010 & 0.010 & 0.009 & 0.034 & 0.042 & 0.043 & +0.001 [-0.002,+0.004] & +0.009 [+0.006,+0.012] & 0.969 & 0.1\\
+32 & 1024 & 0.010 & 0.009 & 0.008 & 0.028 & 0.026 & 0.026 & -0.000 [-0.004,+0.001] & -0.002 [-0.011,+0.003] & 0.978 & 0.1\\
+\bottomrule\end{tabular}\end{table*}

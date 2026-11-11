@@ -1,0 +1,20 @@
+\begin{table}[t]\centering\caption{Guaranteed-resolution planning on the real panel (stock-level windows, 40-day backlog, 5 days per scenario). Row 1: optimum number of decisions guaranteed resolved (exact DP, Thm.~\ref{thm:dp}), mean over days. Other rows: fraction of the optimum achieved by each non-adaptive plan at the same budget (budget = fraction of total uncertain-item cost).}\label{tab:wc}
+\scriptsize\setlength{\tabcolsep}{2.2pt}\begin{tabular}{llccccc}\toprule
+Scen. & Plan & 2\% & 5\% & 10\% & 20\% & 40\%\\
+\midrule
+LATE & \textbf{Exact DP (count)} & 527 & 1153 & 2040 & 3527 & 5755\\
+ & Greedy cheapest-completion & 0.52 & 0.67 & 0.66 & 0.74 & 0.83\\
+ & Completion score & 0.41 & 0.44 & 0.51 & 0.61 & 0.75\\
+ & \seaq{} order & 0.11 & 0.08 & 0.08 & 0.11 & 0.22\\
+ & Widest order & 0.06 & 0.06 & 0.08 & 0.13 & 0.20\\
+ & Random & 0.00 & 0.01 & 0.01 & 0.02 & 0.05\\
+ & \multicolumn{6}{l}{decisions: 7475; exact DP time: 0.66 s}\\
+\midrule
+MCAR & \textbf{Exact DP (count)} & 1088 & 2584 & 4946 & 9369 & 17464\\
+ & Greedy cheapest-completion & 0.54 & 0.58 & 0.71 & 0.86 & 0.90\\
+ & Completion score & 0.27 & 0.23 & 0.22 & 0.23 & 0.44\\
+ & \seaq{} order & 0.04 & 0.03 & 0.03 & 0.04 & 0.08\\
+ & Widest order & 0.06 & 0.06 & 0.06 & 0.07 & 0.11\\
+ & Random & 0.00 & 0.00 & 0.01 & 0.01 & 0.05\\
+ & \multicolumn{6}{l}{decisions: 32837; exact DP time: 1.31 s}\\
+\bottomrule\end{tabular}\end{table}
