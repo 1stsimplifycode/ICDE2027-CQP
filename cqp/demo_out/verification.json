@@ -1,0 +1,27 @@
+{
+ "incremental_vs_full_max_abs_error": 0.0,
+ "certified_decisions": 24,
+ "certified_wrong_vs_final_truth": 0,
+ "seaq_probes": 4,
+ "restatement_result": {
+  "transitions": 5,
+  "retractions": 5,
+  "contradictions": 1
+ },
+ "gr_plan": {
+  "guaranteed": 5,
+  "slots": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "cost": 3.0
+ },
+ "retractions": 5,
+ "retractions_flagged_contradiction": 5
+}

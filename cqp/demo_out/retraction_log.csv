@@ -1,0 +1,6 @@
+ts,qid,ent,end_day,emitted_state,new_state,caused_by_contradiction
+3,1,0,4,1,0,true
+3,1,0,5,1,0,true
+3,1,0,6,1,0,true
+3,1,0,7,1,0,true
+3,2,0,7,1,0,true
