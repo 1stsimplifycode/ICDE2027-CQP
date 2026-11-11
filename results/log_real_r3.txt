@@ -1,0 +1,26 @@
+K 398 T 580 groups 20
+mcar 0 143 dec 1672 unk 1266 wait 8087.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.7, 'voi1': 0.6}
+mcar 1 176 dec 1672 unk 1250 wait 8049.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.6, 'voi1': 0.7}
+mcar 2 204 dec 1672 unk 1217 wait 8003.0 {'seaq': 0.6, 'comp': 0.8, 'hybrid': 0.6, 'voi1': 0.5}
+mcar 3 264 dec 1672 unk 1284 wait 8185.0 {'seaq': 0.6, 'comp': 0.8, 'hybrid': 0.7, 'voi1': 0.6}
+mcar 4 308 dec 1672 unk 1311 wait 8026.0 {'seaq': 0.6, 'comp': 0.8, 'hybrid': 0.6, 'voi1': 0.6}
+mcar 5 349 dec 1672 unk 1306 wait 8143.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.6, 'voi1': 0.6}
+mcar 6 359 dec 1672 unk 1366 wait 8083.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.7, 'voi1': 0.6}
+mcar 7 413 dec 1672 unk 1194 wait 8015.0 {'seaq': 0.5, 'comp': 0.7, 'hybrid': 0.5, 'voi1': 0.5}
+late 0 143 dec 1672 unk 1277 wait 6549.0 {'seaq': 0.3, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.3}
+late 1 176 dec 1672 unk 1275 wait 6376.0 {'seaq': 0.3, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.3}
+late 2 204 dec 1672 unk 1215 wait 6373.0 {'seaq': 0.2, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.3}
+late 3 264 dec 1672 unk 1317 wait 6536.0 {'seaq': 0.3, 'comp': 0.5, 'hybrid': 0.3, 'voi1': 0.3}
+late 4 308 dec 1672 unk 1349 wait 6478.0 {'seaq': 0.3, 'comp': 0.5, 'hybrid': 0.3, 'voi1': 0.3}
+late 5 349 dec 1672 unk 1329 wait 6365.0 {'seaq': 0.3, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.3}
+late 6 359 dec 1672 unk 1416 wait 6408.0 {'seaq': 0.3, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.3}
+late 7 413 dec 1672 unk 1247 wait 6394.0 {'seaq': 0.2, 'comp': 0.4, 'hybrid': 0.3, 'voi1': 0.2}
+mnar 0 143 dec 1672 unk 1359 wait 7627.0 {'seaq': 0.5, 'comp': 0.7, 'hybrid': 0.5, 'voi1': 0.5}
+mnar 1 176 dec 1672 unk 1360 wait 7798.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.6, 'voi1': 0.6}
+mnar 2 204 dec 1672 unk 1285 wait 8096.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.5, 'voi1': 0.5}
+mnar 3 264 dec 1672 unk 1347 wait 7716.0 {'seaq': 0.5, 'comp': 0.8, 'hybrid': 0.5, 'voi1': 0.5}
+mnar 4 308 dec 1672 unk 1354 wait 7619.0 {'seaq': 0.4, 'comp': 0.7, 'hybrid': 0.5, 'voi1': 0.5}
+mnar 5 349 dec 1672 unk 1300 wait 7726.0 {'seaq': 0.4, 'comp': 0.7, 'hybrid': 0.5, 'voi1': 0.5}
+mnar 6 359 dec 1672 unk 1349 wait 7480.0 {'seaq': 0.4, 'comp': 0.7, 'hybrid': 0.5, 'voi1': 0.4}
+mnar 7 413 dec 1672 unk 1311 wait 8067.0 {'seaq': 0.4, 'comp': 0.8, 'hybrid': 0.5, 'voi1': 0.5}
+done

@@ -1,0 +1,7 @@
+K 398 T 580 events 475752
+point events/s 153868
+cert events/s 84059
+recomp events/s 3018
+cert {'upd_secs': 7.964520602952689, 'total': 749892, 'emitted': 749892, 'wrong_at_emission': 7, 'mean_delay_days': 1.001182836995194, 'on_time': 432485, 'reversals': 7, 'flagged': 7, 'contradictions': 173, 'wall': 12.477625199826434}
+point {'upd_secs': 5.154267600271851, 'total': 749892, 'emitted': 749892, 'wrong_at_emission': 18000, 'mean_delay_days': 0.0, 'on_time': 749892, 'reversals': 19788, 'flagged': 0, 'contradictions': 465302, 'wall': 7.628327599959448}
+wait {'upd_secs': 8.17308879736811, 'total': 749892, 'emitted': 749892, 'wrong_at_emission': 0, 'mean_delay_days': 3.495932747648995, 'on_time': 22566, 'reversals': 0, 'flagged': 0, 'contradictions': 173, 'wall': 24.015340799931437}

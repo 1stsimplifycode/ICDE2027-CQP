@@ -1,0 +1,39 @@
+K 398 T 580 groups 20
+mcar 0 143 dec 1672 unk 1266 wait 16259.0 {'random': 1.9, 'widest': 0.6, 'degree': 0.8, 'local': 0.5, 'voi1': 0.8, 'seaq': 0.7, 'seaq_myopic': 0.8, 'seaq_max': 0.6}
+mcar 1 175 dec 1672 unk 1266 wait 16025.0 {'random': 2.4, 'widest': 0.6, 'degree': 0.9, 'local': 0.5, 'voi1': 0.8, 'seaq': 0.7, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mcar 2 204 dec 1672 unk 1217 wait 15971.0 {'random': 1.9, 'widest': 0.4, 'degree': 0.7, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.6, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mcar 3 263 dec 1672 unk 1262 wait 16172.0 {'random': 2.0, 'widest': 0.5, 'degree': 0.7, 'local': 0.5, 'voi1': 0.6, 'seaq': 0.6, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mcar 4 306 dec 1672 unk 1314 wait 16145.0 {'random': 1.9, 'widest': 0.5, 'degree': 0.7, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.6, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mcar 5 336 dec 1672 unk 1264 wait 16104.0 {'random': 1.9, 'widest': 0.4, 'degree': 0.7, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.6, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mcar 6 347 dec 1672 unk 1267 wait 16255.0 {'random': 1.9, 'widest': 0.5, 'degree': 0.7, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.5, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mcar 7 357 dec 1672 unk 1354 wait 15935.0 {'random': 1.8, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mcar 8 411 dec 1672 unk 1219 wait 16091.0 {'random': 1.7, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mcar 9 439 dec 1672 unk 1066 wait 16172.0 {'random': 1.5, 'widest': 0.4, 'degree': 0.6, 'local': 0.3, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.4, 'seaq_max': 0.4}
+mcar 10 450 dec 1672 unk 1042 wait 15928.0 {'random': 1.4, 'widest': 0.3, 'degree': 0.5, 'local': 0.3, 'voi1': 0.4, 'seaq': 0.4, 'seaq_myopic': 0.4, 'seaq_max': 0.4}
+mcar 11 541 dec 1672 unk 1268 wait 16178.0 {'random': 1.8, 'widest': 0.5, 'degree': 0.6, 'local': 0.4, 'voi1': 0.6, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+late 0 143 dec 1672 unk 1277 wait 13011.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.2, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 1 175 dec 1672 unk 1282 wait 12741.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 2 204 dec 1672 unk 1215 wait 12645.0 {'random': 1.1, 'widest': 0.2, 'degree': 0.4, 'local': 0.2, 'voi1': 0.3, 'seaq': 0.2, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 3 263 dec 1672 unk 1324 wait 13050.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 4 306 dec 1672 unk 1364 wait 12973.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 5 336 dec 1672 unk 1301 wait 12748.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.2, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 6 347 dec 1672 unk 1303 wait 12671.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 7 357 dec 1672 unk 1395 wait 13023.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+late 8 411 dec 1672 unk 1243 wait 12539.0 {'random': 1.1, 'widest': 0.2, 'degree': 0.4, 'local': 0.2, 'voi1': 0.2, 'seaq': 0.2, 'seaq_myopic': 0.2, 'seaq_max': 0.2}
+late 9 439 dec 1672 unk 1091 wait 12397.0 {'random': 1.0, 'widest': 0.2, 'degree': 0.3, 'local': 0.2, 'voi1': 0.2, 'seaq': 0.2, 'seaq_myopic': 0.2, 'seaq_max': 0.2}
+late 10 450 dec 1672 unk 1103 wait 11906.0 {'random': 0.9, 'widest': 0.2, 'degree': 0.3, 'local': 0.2, 'voi1': 0.2, 'seaq': 0.2, 'seaq_myopic': 0.2, 'seaq_max': 0.2}
+late 11 541 dec 1672 unk 1294 wait 12982.0 {'random': 1.2, 'widest': 0.2, 'degree': 0.4, 'local': 0.3, 'voi1': 0.3, 'seaq': 0.3, 'seaq_myopic': 0.3, 'seaq_max': 0.3}
+mnar 0 143 dec 1672 unk 1359 wait 15145.0 {'random': 1.6, 'widest': 0.3, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.4, 'seaq_max': 0.5}
+mnar 1 175 dec 1672 unk 1365 wait 15618.0 {'random': 1.8, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mnar 2 204 dec 1672 unk 1285 wait 16148.0 {'random': 1.8, 'widest': 0.4, 'degree': 0.7, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mnar 3 263 dec 1672 unk 1321 wait 15418.0 {'random': 1.9, 'widest': 0.7, 'degree': 1.0, 'local': 0.5, 'voi1': 0.7, 'seaq': 0.6, 'seaq_myopic': 0.6, 'seaq_max': 0.6}
+mnar 4 306 dec 1672 unk 1335 wait 14953.0 {'random': 2.1, 'widest': 0.5, 'degree': 0.8, 'local': 0.5, 'voi1': 0.8, 'seaq': 0.5, 'seaq_myopic': 0.6, 'seaq_max': 0.5}
+mnar 5 336 dec 1672 unk 1344 wait 15307.0 {'random': 1.9, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.4, 'seaq_max': 0.5}
+mnar 6 347 dec 1672 unk 1332 wait 15183.0 {'random': 1.6, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.5, 'seaq_max': 0.4}
+mnar 7 357 dec 1672 unk 1351 wait 15031.0 {'random': 1.6, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.4, 'seaq_max': 0.4}
+mnar 8 411 dec 1672 unk 1284 wait 15702.0 {'random': 1.7, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.5, 'seaq_max': 0.4}
+mnar 9 439 dec 1672 unk 1263 wait 17151.0 {'random': 1.8, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mnar 10 450 dec 1672 unk 1242 wait 16876.0 {'random': 1.7, 'widest': 0.4, 'degree': 0.6, 'local': 0.3, 'voi1': 0.5, 'seaq': 0.4, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+mnar 11 541 dec 1672 unk 1293 wait 15541.0 {'random': 1.7, 'widest': 0.4, 'degree': 0.6, 'local': 0.4, 'voi1': 0.5, 'seaq': 0.5, 'seaq_myopic': 0.5, 'seaq_max': 0.5}
+done
+ALLDONE

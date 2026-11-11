@@ -1,0 +1,50 @@
+{
+ "seed": 7,
+ "P_LATE": 0.3,
+ "P_NOISY": 0.3,
+ "P_RESTATE": 0.002,
+ "K": 398,
+ "T": 580,
+ "events": 476479,
+ "restated_items": 721,
+ "bound_violations": 183,
+ "tput_point": 154456.01742587856,
+ "tput_cert": 79171.51756737,
+ "tput_recomp": 2863.227624735533,
+ "cert": {
+  "upd_secs": 6.122033900115639,
+  "total": 749892,
+  "emitted": 749892,
+  "wrong_at_emission": 364,
+  "mean_delay_days": 0.9970555760029445,
+  "on_time": 433718,
+  "reversals": 376,
+  "flagged": 376,
+  "contradictions": 890,
+  "wall": 8.59819189994596
+ },
+ "point": {
+  "upd_secs": 3.5053444986697286,
+  "total": 749892,
+  "emitted": 749892,
+  "wrong_at_emission": 18001,
+  "mean_delay_days": 0.0,
+  "on_time": 749892,
+  "reversals": 19851,
+  "flagged": 0,
+  "contradictions": 466176,
+  "wall": 4.965918499976397
+ },
+ "wait": {
+  "upd_secs": 6.181275898125023,
+  "total": 749892,
+  "emitted": 749892,
+  "wrong_at_emission": 344,
+  "mean_delay_days": 3.496114107098089,
+  "on_time": 22834,
+  "reversals": 344,
+  "flagged": 344,
+  "contradictions": 890,
+  "wall": 18.833397899987176
+ }
+}

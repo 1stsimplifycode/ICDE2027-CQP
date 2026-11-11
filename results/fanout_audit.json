@@ -1,0 +1,51 @@
+{
+ "generator": "src/run_fanout.py line 27: theta = |S_d| * mu * U(0.9,1.1), mu = per-item mean (Gamma(2, mu/2))",
+ "paper_wording_before": "thresholds are sum(mu) * U(0.9,1.1) (ambiguous)",
+ "paper_wording_after": "theta_d = |S_d| mu U(0.9,1.1)",
+ "implementation_correct": true,
+ "initially_undetermined_per_instance": {
+  "1": [
+   1023,
+   1024,
+   1024,
+   1023,
+   1024
+  ],
+  "2": [
+   1024,
+   1023,
+   1024,
+   1024,
+   1024
+  ],
+  "4": [
+   1024,
+   1023,
+   1024,
+   1024,
+   1023
+  ],
+  "8": [
+   1024,
+   1023,
+   1023,
+   1023,
+   1024
+  ],
+  "16": [
+   1024,
+   1024,
+   1024,
+   1024,
+   1024
+  ],
+  "32": [
+   1024,
+   1024,
+   1024,
+   1024,
+   1024
+  ]
+ },
+ "conclusion": "generator matches intended 'within +-10% of expected sum'; ~all 1024 decisions start undetermined; negative fan-out finding unaffected; no rerun needed"
+}

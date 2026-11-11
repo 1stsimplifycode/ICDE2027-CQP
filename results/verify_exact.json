@@ -1,0 +1,13 @@
+{
+ "instances": 1500,
+ "mismatches": 0,
+ "boundary_case_counts": {
+  "zero_cost": 780,
+  "zero_budget": 859,
+  "empty": 199,
+  "identical": 390,
+  "nested": 635
+ },
+ "arithmetic": "exact (fractions.Fraction)",
+ "brute_force_granularity": "individual source items (verifies slot atomicity is without loss of optimality)"
+}

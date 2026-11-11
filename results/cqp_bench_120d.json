@@ -1,0 +1,31 @@
+{
+ "K": 398,
+ "days": 120,
+ "queries": 8,
+ "decisions": 181412,
+ "evidence_rows": 95520,
+ "load_s": 0.1712259000632912,
+ "register_s": 1.5160898000467569,
+ "batches": 123,
+ "rows_per_batch_mean": 1009.5447154471544,
+ "inc_p50_ms": 633.0119001213461,
+ "inc_p95_ms": 1019.2869299557059,
+ "inc_p99_ms": 1058.4052039543167,
+ "full_p50_ms": 1059.2873999848962,
+ "full_p95_ms": 1086.9329399894923,
+ "full_p99_ms": 1091.4102360978723,
+ "inc_rows_per_s": 1629.7231515817625,
+ "max_incremental_error": 0.0001068115234375,
+ "final_states": [
+  [
+   0,
+   93765
+  ],
+  [
+   1,
+   87647
+  ]
+ ],
+ "retractions": 2,
+ "contradictions": 126
+}

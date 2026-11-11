@@ -1,0 +1,380 @@
+{
+ "acq_real_main|late|random": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.6507193922806538
+ },
+ "acq_real_main|late|widest": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.07718412417235472
+ },
+ "acq_real_main|late|degree": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.18288558290848694
+ },
+ "acq_real_main|late|local": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.22404999286868243
+ },
+ "acq_real_main|late|voi1": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.041955034656623855
+ },
+ "acq_real_main|late|seaq_myopic": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.03035123431504741
+ },
+ "acq_real_main|late|seaq_max": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.01915053534230586
+ },
+ "acq_real_main|mcar|random": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.5956668860707393
+ },
+ "acq_real_main|mcar|widest": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.21125505719338528
+ },
+ "acq_real_main|mcar|degree": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.2100821259235468
+ },
+ "acq_real_main|mcar|local": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.23358596402646684
+ },
+ "acq_real_main|mcar|voi1": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.07555085169855258
+ },
+ "acq_real_main|mcar|seaq_myopic": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.05237780813069952
+ },
+ "acq_real_main|mcar|seaq_max": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.005676696240237616
+ },
+ "acq_real_main|mnar|random": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.6115408539019465
+ },
+ "acq_real_main|mnar|widest": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.17492255111047766
+ },
+ "acq_real_main|mnar|degree": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.2540777526061307
+ },
+ "acq_real_main|mnar|local": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.2599311486542206
+ },
+ "acq_real_main|mnar|voi1": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.05108185213890756
+ },
+ "acq_real_main|mnar|seaq_myopic": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.03186231023309015
+ },
+ "acq_real_main|mnar|seaq_max": {
+  "wins": 8,
+  "n": 8,
+  "sign_p_one_sided": 0.00390625,
+  "dAUC": 0.008841966694459844
+ },
+ "acq_synth_main|late|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.6358629914368602
+ },
+ "acq_synth_main|late|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.07533648348977358
+ },
+ "acq_synth_main|late|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.1817226911439819
+ },
+ "acq_synth_main|late|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.20484610061699207
+ },
+ "acq_synth_main|late|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.04186731789811562
+ },
+ "acq_synth_main|late|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.030094955771427578
+ },
+ "acq_synth_main|late|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.020747496231242696
+ },
+ "acq_synth_main|mcar|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.5699193128538862
+ },
+ "acq_synth_main|mcar|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.21326988925198087
+ },
+ "acq_synth_main|mcar|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.20071838004597664
+ },
+ "acq_synth_main|mcar|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.22624255574882335
+ },
+ "acq_synth_main|mcar|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.0638771112409513
+ },
+ "acq_synth_main|mcar|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.04096770299481118
+ },
+ "acq_synth_main|mcar|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.009726685031151233
+ },
+ "acq_synth_main|mnar|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.554268855550672
+ },
+ "acq_synth_main|mnar|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.1877584564537954
+ },
+ "acq_synth_main|mnar|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.22209742936820628
+ },
+ "acq_synth_main|mnar|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.23316325712694166
+ },
+ "acq_synth_main|mnar|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.0506792921354172
+ },
+ "acq_synth_main|mnar|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.03104136037124357
+ },
+ "acq_synth_main|mnar|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.011772475653155904
+ },
+ "acq_real_hetero|late|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.6192850899562631
+ },
+ "acq_real_hetero|late|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.10810789406254924
+ },
+ "acq_real_hetero|late|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.4173900261550621
+ },
+ "acq_real_hetero|late|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.2308251722258483
+ },
+ "acq_real_hetero|late|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.06595218209663302
+ },
+ "acq_real_hetero|late|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.04542917966442914
+ },
+ "acq_real_hetero|late|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.023013512482801656
+ },
+ "acq_real_hetero|mcar|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.5701910435295493
+ },
+ "acq_real_hetero|mcar|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.2657142964980891
+ },
+ "acq_real_hetero|mcar|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.4205029107558238
+ },
+ "acq_real_hetero|mcar|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.26325675159659306
+ },
+ "acq_real_hetero|mcar|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.09342596718440266
+ },
+ "acq_real_hetero|mcar|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.06439714166437006
+ },
+ "acq_real_hetero|mcar|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.012816128462545678
+ },
+ "acq_real_hetero|mnar|random": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.567202734161231
+ },
+ "acq_real_hetero|mnar|widest": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.23714350720123292
+ },
+ "acq_real_hetero|mnar|degree": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.46185756663658545
+ },
+ "acq_real_hetero|mnar|local": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.2789750219223508
+ },
+ "acq_real_hetero|mnar|voi1": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.07113010615789354
+ },
+ "acq_real_hetero|mnar|seaq_myopic": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.04585050351105896
+ },
+ "acq_real_hetero|mnar|seaq_max": {
+  "wins": 12,
+  "n": 12,
+  "sign_p_one_sided": 0.000244140625,
+  "dAUC": 0.011426999534635662
+ }
+}
